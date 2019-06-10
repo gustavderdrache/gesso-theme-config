@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "del": "4.1.1",
+    "globby": "9.2.0",
+    "lodash": "4.17.11",
+    "make-dir": "3.0.0",
+    "yaml": "1.6.0"
+  }
+}
