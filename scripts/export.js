@@ -16,7 +16,7 @@ const renderSass = require('./lib/renderSass');
 const writeFile = util.promisify(fs.writeFile);
 
 async function main() {
-  const outDir = path.join(__dirname, 'out');
+  const outDir = path.join(__dirname, '../out');
   await del(outDir);
 
   const parsed = await readSource(path.join(__dirname, '../src/gesso.yml'));
