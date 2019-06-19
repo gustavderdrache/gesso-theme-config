@@ -1,6 +1,5 @@
 // @ts-check
 
-const { get } = require('lodash');
 const { NaniError, fromArray } = require('nani');
 
 /**
